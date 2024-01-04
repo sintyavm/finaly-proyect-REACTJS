@@ -1,4 +1,4 @@
-import React from 'react' 
+import React from 'react' //6.9k (gzipped: 2.7k)
 import './Navbar.css'
 
 import logo from '../Assets/logo.png'

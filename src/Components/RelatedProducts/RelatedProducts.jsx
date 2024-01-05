@@ -1,15 +1,14 @@
 import React from "react";
-import "./Popular.css";
+import "./RelatedProducts.css";
 import data_product from "../Assets/data";
 import Item from "../Item/Item";
-const Popular = () => {
+const RelatedProducts = () => {
   return (
-    <div className="popular">
-      <h1>POPULAR IN WOMEN</h1>
+    <div className="relatedproducts">
+      <h1>Related Products</h1>
       <hr />
-      <div className="popular-item">
+      <div className="relatedproducts-item">
         {data_product.map((item, idx) => {
-          console.log({ item });
           return (
             <Item
               key={idx}
@@ -26,4 +25,4 @@ const Popular = () => {
   );
 };
 
-export default Popular;
+export default RelatedProducts;
